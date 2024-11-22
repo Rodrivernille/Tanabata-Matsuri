@@ -1,0 +1,174 @@
+/* Configurações gerais */
+
+body {
+    background: linear-gradient(180deg, #87CEEB, #FFD700); /* Azul-claro e dourado */
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+/* Imagem de fundo */
+body {
+    background: url('../imagens/Grupo-Awaodori-Represa-traz-mais-de-30-dançarinos.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+  }
+/* Header */
+
+.header {
+    background-color: #FF69B4; /* Rosa */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    color: #fff; /* Branco */
+}
+
+.header p {
+    font-size: 1.2rem;
+    color: #fff;
+    margin-top: 10px;
+}
+/* Sessão de histórias */
+.historias {
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #ffffff; /* Branco */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.historias h2 {
+    font-size: 2rem;
+    color: #FF69B4; /* Rosa */
+  }
+  
+  .historias p {
+    font-size: 1rem;
+    color: #333;
+    margin: 10px 0;
+  }
+  /* Sessão de informações */
+  .info {
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #FFD700; /* Dourado */
+    border-radius: 10px;
+    color: #4B0082; /* Roxo escuro */
+  }
+  .info h2 {
+    font-size: 2rem;
+  }
+  
+  .info ul {
+    list-style: none;
+    margin: 15px 0;
+  }
+  
+  .info li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  .btn-programacao {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #FF69B4; /* Rosa */
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-programacao:hover {
+    background-color: #FFB6C1; /* Rosa claro */
+    color: #4B0082; /* Roxo escuro */
+  }
+  
+  /* Sessão de curiosidades */
+  .curiosidades {
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #87CEEB; /* Azul-claro */
+    border-radius: 10px;
+  }
+  
+  .curiosidades h2 {
+    font-size: 2rem;
+    color: #FFD700; /* Dourado */
+  }
+  
+  .curiosidades ul li {
+    font-size: 1.1rem;
+    color: #4B0082; /* Roxo escuro */
+    margin: 10px 0;
+  }
+  
+  /* Footer */
+  .footer {
+    margin-top: 30px;
+    font-size: 0.9rem;
+    color: #dcdcdc;
+    padding-top: 20px;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .header h1 {
+      font-size: 2rem;
+    }
+  
+    .info h2, .curiosidades h2 {
+      font-size: 1.6rem;
+    }
+  
+    .btn-programacao {
+      padding: 8px 15px;
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .header h1 {
+      font-size: 1.5rem;
+    }
+  
+    .info h2, .curiosidades h2 {
+      font-size: 1.4rem;
+    }
+  
+    .btn-programacao {
+      padding: 5px 10px;
+      font-size: 0.9rem;
+    }
+  }
+
+  /* Sessão de como chegar */
+.como-chegar {
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #FFD700; /* Dourado */
+    border-radius: 10px;
+    color: #4B0082; /* Roxo escuro */
+  }
+  
+  .como-chegar h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #FF69B4; /* Rosa */
+  }
+  
+  .como-chegar p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+  }
+  
+  .mapa iframe {
+    border: 2px solid #FF69B4; /* Borda rosa */
+    border-radius: 10px;
+  }
